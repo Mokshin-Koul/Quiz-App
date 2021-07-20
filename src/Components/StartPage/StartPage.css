@@ -1,0 +1,41 @@
+.StartPage {
+    background-color: #fff;
+    border-radius: 50px;
+    box-shadow: 20px 20px 60px #cccccc,-20px -20px 60px #ffffff;
+    height: 60vh;
+    width: 60%;
+    margin: 145px auto;
+    position: relative;
+    font-family: 'Playfair Display', serif;
+}
+
+.StartPage div {
+    width: 80%;
+    height: 50%;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-40%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.StartPage div button {
+    padding: 12px 16px;
+    font-size: 20px;
+    border-radius: 12px;
+    cursor: pointer;
+    border: none;
+    transition: all 0.3s;
+    background-color: #9400d3;
+    color: whitesmoke;
+}
+
+.StartPage div button:hover {
+    transform: translateY(-5px);
+}
+
+.Welcome {
+    font-size: 60px;
+}
